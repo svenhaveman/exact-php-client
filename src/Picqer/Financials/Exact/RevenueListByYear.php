@@ -11,7 +11,7 @@ namespace Picqer\Financials\Exact;
  * @property int $Period Period
  * @property float $Amount amount of revenue
  */
-class RevenueList extends Model
+class RevenueListByYear extends Model
 {
     use Query\Findable;
 
